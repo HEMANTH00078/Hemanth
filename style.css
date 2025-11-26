@@ -1,0 +1,25 @@
+/* General page styling */
+body {
+    font-family: Arial, sans-serif;
+    background: #e9eef3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Login box */
+.box {
+    background: #fff;
+    padding: 25px;
+    width: 300px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 12px rgba(0,0,0,0.2);
+}
+
+/* Heading */
+.box h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size
