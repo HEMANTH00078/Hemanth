@@ -1,25 +1,43 @@
-/* General page styling */
+/*************  ✨ Windsurf Command ⭐  *************/
 body {
-    font-family: Arial, sans-serif;
-    background: #e9eef3;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     margin: 0;
+    background-color: #f0f0f0;
 }
 
-/* Login box */
-.box {
-    background: #fff;
-    padding: 25px;
-    width: 300px;
-    border-radius: 8px;
-    box-shadow: 0px 0px 12px rgba(0,0,0,0.2);
+form {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
-/* Heading */
-.box h2 {
-    text-align: center;
+label {
+    margin-bottom: 10px;
+}
+
+input {
+    padding: 10px;
     margin-bottom: 20px;
-    font-size
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #45a049;
+}
+/*******  55bf0b95-0d25-4039-a2b7-6d1d545f357f  *******/
